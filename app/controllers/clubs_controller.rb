@@ -2,7 +2,8 @@ class ClubsController < ApplicationController
 before_action :authenticate
 
   def index
-    @clubs = Club.all
+    @clubs = Student.find(current_student.id).clubs
+
   end
 
   def show
