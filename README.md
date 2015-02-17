@@ -43,7 +43,7 @@ Write an `it` block for seeing the 403 page for a club you do _not_ participate 
 
 **Hiding UI elements**
 
-```
+``
 When a non-logged in user visits the homepage
 Then they should not see the "My Peeps" or "My Clubs" links
 ```
